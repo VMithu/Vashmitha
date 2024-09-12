@@ -1,0 +1,668 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+                       display:flex;
+                       justify-content: space-between;
+                       align-items: center;
+                       position:sticky;
+                       top:0px;
+                       background-color:thistle;
+                       height: 80px;
+                       z-index: 3;
+        }
+        .k{
+  --padding:4px;
+  width:max-content;
+  display:flex;
+             
+  padding:var(--padding);
+  border-radius:28px;
+  background:rgb(194, 150, 194); 
+  
+} 
+.k:focus-within{
+background: #f1f1f1;
+}
+.search-input{
+  font-size: 16px;
+  font-family: 'Lexend',sans-serif;
+  color: #333333;
+  margin-left:var(--padding);
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 150px;
+
+}
+.search-input::placeholder
+{
+  color:rgb(101, 66, 107);
+}
+        .mithu {
+            font-family: cursive;
+            font-size: 10px;
+            font-style: italic;
+            color: rgb(81, 46, 108);
+
+        }
+
+        .a {
+            width: 20%;
+            display: flex;
+            gap: 10px;
+            justify-content: space-around;
+            float: right;
+            padding: 6px;
+  margin-top: 10px;
+  margin-right: 2px;
+  margin-left: 15px;
+  border: none;
+        }
+        a{
+            color:rgb(75, 45, 96);}
+
+        .b {
+            display: flex;
+            gap: 10px;
+        }
+
+        .kl {
+            padding-right: 200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+
+            }
+
+
+        .oi {
+
+            margin-left: 10px;
+            margin-right: 5px;
+            border-radius: 100%;
+            margin-bottom: 10px;
+        }
+
+
+        .d {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            /* flex-basis: 40%; */
+            gap: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: purple;
+            text-align: center;
+            
+        }
+        h3{
+            text-align: center;
+        }
+        
+.e{
+    img{
+   padding-top: 10px; 
+   border-top-left-radius: 20%;
+   border-top-right-radius: 20%;
+   border-bottom-right-radius: 20%;
+   
+}
+}
+        .d>.e{
+            flex-basis: 60%;
+        }
+        .e{
+            border: double rgb(122, 120, 120);
+            border-spacing: 10px;
+            border-top-left-radius: 15%;
+            border-top-right-radius: 15%;
+            border-bottom-right-radius: 15%;
+            margin-inline-end:10px;
+            margin-inline-start:5px;
+            margin-left: 1%;
+            margin-right: 1%;
+            margin-top: 1%;
+        }
+
+        h2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(138, 76, 186);
+        }
+        .i{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+            font-size: 17px;
+            color: rgb(130, 128, 128);
+        }
+
+        .vcc {
+            /* width: 700px; */
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            /* flex-basis: 23%; */
+            /* overflow: hidden; */
+
+        }
+        .vcc>.g{
+          flex-basis: 23%;
+          text-align: center;  
+          margin-bottom: 10px;
+
+        }
+        .g{ padding-top: 10px;
+            border: double rgb(122, 120, 120);
+            border-spacing: 15px;
+            border-top-left-radius: 15%;
+            border-top-right-radius: 15%;
+            border-bottom-right-radius: 15%;
+            margin-inline-end:9px;
+            margin-inline-start:10px;
+            margin-left: 0.4cm;
+            margin-right:0.4cm;
+           
+        }
+        .c{
+            background-color:rgba(250, 240, 250, 0.588);
+            padding-top: 5px;
+            
+        }
+        .cc{
+            display: flex;
+            justify-content: center;
+            background-color: rgba(250, 240, 250, 0.588);
+        }
+        .cccc{
+        padding-bottom:10px ;
+            }
+        .dv{
+            background-color:rgba(250, 240, 250, 0.588);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font: size 15px;
+            color: rgb(90, 3, 90);
+            padding-left: 10px;
+            border-top:medium rgb(87, 44, 87);
+            border-bottom:medium rgb(87, 44, 87);
+            
+            
+            img{
+                
+                border-radius: 100%;
+                padding-left: 40px;
+            }
+
+        }
+       
+        .vash {
+            
+            text-align: center;
+        }
+         
+        .h>.l{
+          flex-basis: 23%;
+          text-align: center;   
+          margin-bottom: 10px;
+          
+
+        }
+    .l{
+            border-spacing: 15px;
+            /* border-radius: %; */
+            margin-inline-end:9px;
+            margin-inline-start:10px;
+            margin-left: 0.4cm;
+            margin-right:0.4cm;
+            
+           
+        }
+        .l>img{
+            border-radius: 100%;
+        }
+        .m{
+    
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            
+        
+        
+        }
+        .m>.n{
+            flex-basis: 15%;
+            text-align: center;  
+            margin-bottom: 10px;
+       }
+       .n{
+        border-top-left-radius: 5%;
+        
+       }
+        .o{
+            background-color:rgba(250, 240, 250, 0.588);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 16px;
+            padding-left: 10px;
+            border-top: double rgb(87, 44, 87);
+            
+        }
+        .oo{
+             text-align: left; 
+            color:  rgb(138, 76, 186); 
+            padding-left: 5px;
+        }
+        .hh{
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(138, 76, 186 );
+            font-size: 16px;
+            text-align: left; 
+            padding-left: 5px;
+          
+        }
+        .pp{
+           padding-left: 35px;
+               
+        }
+        .cc{
+           display: flex;
+           justify-content:space-evenly;
+           text-align: center;
+           padding-top: 20px;
+          
+        }
+        
+        .q{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            padding: 5px;
+            border-top: medium rgb(87, 44, 87);
+            border-bottom:medium rgb(87, 44, 87);
+            
+        }
+        .qq{
+            text-align: left;
+            color:rgb(126, 86, 126) ; 
+        }
+        .r{
+            line-height: 1.3;
+            
+        }
+        .s{ background-color:rgba(250, 240, 250, 0.588) ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:14px ;
+            color:rgb(126, 86, 126);
+            padding-top: 30px;
+            text-align: center;
+
+        }
+        .ss{
+            display: flex;
+            justify-content: space-between;
+            padding-right: 10px;
+            padding-left: 10px;
+            background-color:rgba(250, 240, 250, 0.588) ;
+        }
+        .t{
+            display: flex;
+            justify-content: space-between;
+            background-color:rgba(250, 240, 250, 0.588) ;
+         }
+         .zoom{
+         
+         transition:transform 0.2s; /* Animation */
+         }
+         .zoom :hover{
+         -ms-transform: scale(1.5); /* IE 9 */
+         -webkit-transform: scale(1.5); /* Safari 3-8 */
+         transform: scale(1.5);
+         }
+
+        
+
+    </style>
+
+<body>
+    <header>
+                       
+    
+                       
+        <div class="a">
+            <a href=""><i class="fa-solid fa-bars fa-2x"></i></a>
+            <div class="home">
+                <a href="http://127.0.0.1:5501/head.html" class="hoome">
+                    <i class="fa-solid fa-house fa-2x"></i></a>
+            </div>
+            <div class="k">
+                <a href="" style="width: 30px;"><i class="fa-solid fa-magnifying-glass fa-2x" style="font-size: 22px;padding: 5px ;"></i></a>
+                <input class="search-input" type="search" placeholder="search">
+              </div>
+
+        </div>
+
+        <div class="mithu">
+
+            <h1 class="kl">FROZEN <img src="./MiniPictures/InShot_20240903_121134964.png" class="oi"
+                    height="99px" width="99px"> FLOWERS</h1>
+        </div>
+
+
+
+        <div class="b">
+
+            <a href="http://127.0.0.1:5501/login.html"><i class="fa-solid fa-user fa-2x"></i></a>
+            <a href=""><i class="fa-solid fa-heart fa-2x"></i></a>
+            <a href="" style="margin-inline-end: 20px;"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+        </div>
+
+
+    </header>
+    
+   
+        <h2 style="text-align: center;margin: 20px;">Collections</h2>
+        <div class="i">
+        <center><p>Use the language of flowers to send your love</p></center>
+        </div><br>
+        <div class="d">
+        <div class="e">
+            <img src="./boque/bouqute/blossoming-whispers-of-love-9796030fl-A_0.avif" width="250" class="zoom"><br>
+            <h3 style="display: inline;">Bouqutes</h3></div>
+            <div class="e">
+            <img src="./boque/bouqute/bottel/vibrant-romance-9826180fl-A_0.avif"width="250" class="zoom"><br>
+            <h3>Flowers in Glass</h3>
+            </div>
+            <div class="e">
+            <img src="./boque/bouqute/gift with flower/pleasant-poetic-petals-9777030fl-A_1.avif"width="250" class="zoom"><br>
+            <h3>Gift Flowers</h3></div>
+            <div class="e">
+            <img src="./boque/bouqute/bots/stunning-botanical-statements-9778970flm-A.avif"width="250" class="zoom"><br>
+            <h3>Flowers in Bots</h3>
+        </div>
+    </div>
+
+    <h2 style="text-align: center;margin: 20px;">Best Sellers</h2>
+    <div class="i">
+    <center><p>Floral arrangements on everyone's list</p></center>
+    </div><br>
+    <div class="vcc">
+        <div class="g">
+            <img src="./boque/bouqute/DSC_1320_0.avif" width="200px" class="zoom"><br>
+            <h4>Red Disey</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/ballet-of-peach-blossoms-9781590fl-A.avif" width="200px" class="zoom"><br>
+            <h4>Peach Rose</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/bottel/serenity-in-white-n-blue-9800990fl-A.avif" width="200px" class="zoom"><br>
+            <h4>Blue Flower</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/gift with flower/enchanting-flower-for-mom-9779500fl-C.avif" width="200px" class="zoom"><br>
+            <h4>Mixed Flowers Gift</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/DSC_0372.avif" width="200px" class="zoom"><br>
+            <h4>White Lilly</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/bots/natural-chic-ensemble-9778980flm-A.avif" width="200px" class="zoom">
+            <h4>Dried Flowers Bot</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/sophisticated-charm-9795980fl-C_0.avif" width="200px" class="zoom">
+            <h4>Pink Lilly</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/gift with flower/DSC_2972.avif" width="200px" class="zoom"><br>
+            <h4>Multi Roses</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/bottel/FA-2-A.avif" width="200px" class="zoom">
+            <h4>Lily in Glass</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/bots/IMG_5618.avif" width="200px" class="zoom"><br>
+            <h4>Red Rose Box</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/DSC_5281.avif" width="200px" class="zoom"><br>
+            <h4>Orange Rose</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/bots/opulent-blooms-in-a-ceramic-mug-9813300flm-A_0.avif" width="200px" class="zoom">
+            <h4>Cup Flowers</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/FR04-A.avif" width="200px" class="zoom">
+            <h4>Yellow Rose</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/bottel/orchids-and-lily-bouquet-9862010fl-A_1.avif" width="200px" class="zoom">
+            <h4>Orchid Flower Glass</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/gift with flower/DSC_1702_1.avif" width="200px" class="zoom">
+            <h4>White Rose Gift </h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+        <img src="./boque/bouqute/bots/orchid-bliss-in-a-fish-bowl-9777020fl-A.avif" width="200px" class="zoom">
+        <h4>Blue Flower Bowl </h4>
+        <h3>$10</h3></div>
+        <div class="g">
+            <img src="./boque/bouqute/bots/exquisite-floral-symphony-9806040flm-A_6.avif" width="200px" class="zoom">
+            <h4>Pink Flower Bot</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/gift with flower/DSC_2918_0.avif" width="200px" class="zoom">
+            <h4> Yellow Disey Gift</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/duet-of-rosy-elegance-9796050fl-A_0.avif" width="200px" class="zoom">
+            <h4>White and Red Rose</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/bottel/C-A-1.avif" width="200px" class="zoom">
+            <h4>Red Rose Glass</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/combination-of-white-and-pink-mini-daisy-10-stems-in-a-white-paper-wrap-9803090fl-A_0.avif" width="200px" class="zoom">
+            <h4>Mini Flowers</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/bots/DSC_7940.avif" width="200px" class="zoom">
+            <h4>Rose Gift Box</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/bottel/vibrant-gypso-in-elegant-golden-vase-9796710flm-A_0.avif" width="200px" class="zoom">
+            <h4>Mini in Glass</h4>
+            <h3>$10</h3>
+        </div>
+        <div class="g">
+            <img src="./boque/bouqute/bots/ethereal-roses-carnations-n-oasis-with-daisy-delight-9805950flm-A_3.avif" width="200px" class="zoom">
+            <h4>Mixed White Flowers</h4>
+            <h3>$10</h3>
+        </div>
+
+    </div>
+    <br>
+    <div class="hh">
+    <h2>Delivering Blooms Worldwide</h2>
+    </div>
+    <div class="h" style="display: flex;overflow-x: scroll;">
+    <div class="l">
+    <img src="./Locations1/10/india.png" width="200px"height="200px" class="zoom">
+    <h3>India</h3>
+    </div>
+    <div class="l">
+    <img src="./Locations1/10/canada.png"width="200px"height="200px" class="zoom">
+    <h3>Canada</h3>
+    </div>
+    <div class="l">
+    <img src="./Locations1/10/aus.png"width="200px"height="200px" class="zoom">
+    <h3>Australia</h3>
+    </div>
+    <div class="l">
+    <img src="./Locations1/10/uk.png"width="200px"height="200px" class="zoom">
+    <h3>UK</h3>
+    </div>
+    <div class="l">
+    <img src="./Locations1/10/us.png"width="200px"height="200px" class="zoom">
+    <h3>United States</h3>
+    </div>
+    <div class="l">
+    <img src="./Locations1/10/singapore.png"width="200px"height="200px" class="zoom">
+    <h3>Singapore</h3>
+    </div>
+    <div class="l">
+    <img src="./Locations1/10/france.png" width="200px"height="200px" class="zoom">
+    <h3>France</h3>
+    </div>
+    <div class="l">
+    <img src="./Locations1/10/nz.png"width="200px"height="200px" class="zoom">
+     <h3>New Zealand</h3>
+    </div>
+     <div class="l">
+    <img src="./Locations1/10/uae.png"width="200px"height="200px" class="zoom">
+    <h3>UAE</h3></div>
+    <div class="l">
+    <img src="./Locations1/10/hong kong.png"width="200px"height="200px" class="zoom">
+    <H3>Hong-Kong</H3>
+</div>
+</div>
+<div class="hh">
+<h2>Now Streaming on FBF</h2><br>
+</div>
+<div class="m">
+     <div class="n" >
+    <video  controls style="width:112.456px;height: 200px;cursor: pointer;">
+        <source  src="./videos/VID-20240902-WA0012.mp4" type="video/mp4" class="zoom">
+    </video>
+     </div>
+     <div class="n">
+     <video controls  style="width: 112.456px;height: 200px;cursor: pointer;">
+        <source src="./videos/VID-20240902-WA0011.mp4"type="video/mp4" class="zoom">
+        </video>
+         </div>
+     <div class="n">
+    <video controls style="width:112.456px;height: 200px;cursor: pointer;"> 
+    <source src="./videos/VID-20240902-WA0014.mp4" type="video/mp4" class="zoom">
+    </video>
+     </div>
+     <div class="n">
+        <video controls style="width: 112.456px;height: 200px;cursor: pointer;">
+        <source src="./videos/VID-20240902-WA0013.mp4" type="video/mp4" class="zoom">
+        </video>
+         </div>
+     <div class="n">
+    <video controls  style="width: 112.456px;height: 200px;cursor: pointer;">
+    <source src="./videos/VID-20240902-WA0015.mp4"type="video/mp4" class="zoom">
+</video>
+     </div>
+</div>
+<div class="hh">
+    <h2>Wall of Fame</h2>
+    <a href="" ><img src="./boque/_d_illustration_830_20240321121050.jpg" class="pp"></a>
+</div>
+<div class="o">
+<h3 class="oo">Flowers for Special Days</h3>
+   <p>>> Birthday Flowers | Anniversary Flowers | Get Well Soon Flowers | Congratulations Flowers | Thank You Flowers | Romance Flowers | Apology Flowers | Sympathy Flowers</p><br>
+   <h3 class="oo">Flowers by Type</h3>
+   <p>>> Roses Online Delivery | Lillies Flower | Carnation Flower | Alstroemerias Flower | Chrysanthemums Flowers | Imported Flowers</p><br>
+   <h3 class="oo">Flowers by Color</h3>
+   <p>>> Red Flowers | White Flowers | Pink Flowers | Pastel Flowers | Vibrant Flowers</p><br>
+   <h3 class="oo">Flowers by Relationship</h3>
+   <p>>> Flowers for Him | Flowers for Her | Baby Flowers</p><br>
+   <h3 class="oo">International Flower Delivery</h3>
+   <p>>> Send Flowers to US | Flower Delivery in UK | Flower Delivery in Canada| Flower Delivery in Australia | Flower Delivery in Honk Kong | Flower Delivery in Singapore | Flower Delivery in UAE(Dubai) | Flower Delivery in France | Flower Delivery in New Zealand</p><br>
+   <h3 class="oo">Flower Guide</h3>
+   <p>>> The Secret Origins of Popular Flower Names | How To Care for Fresh Cut Flowers - Make Flowers Last Longer | Why Use Flower Food - THE FACTS: AN ESSENTIAL GUIDE TO CARE & CONDITIONING | Importance of Flowers in Indian Culture - Flower Guide | Flower Arrangements</p><br>
+   <h3 class="oo">Fresh & Suggested Reads from our Blog</h3>
+  <p>>> A Guide to Indian Blooms- Flower Types and Uses | 5 Reasons Why Moms are Important | 25 Interesting Facts About Roses | 8 Things to Learn from Flowers | Flower Festivals in India- 7 Places Worth Visiting</p><br>
+</div>
+<hr>
+    <div class="q">
+    <h3 class="qq">Online Flowers Delivery with #1 Online Florist in India</h3>
+        <p class="r">Since time immemorial, flowers have intrigued people of all eras with their stunning beauty and enticing scents. These exquisite gifts of nature possess unbelievable characteristics, some unknown yet, even just hints of them can be ridiculously attractive. Flowers have the ability to even speak a poetry without saying a word, and thus have made an integral part of human communications since.<br>
+        At Frozen Butterfly Flowers India, we focus on speaking those very words in the plushest of exclusive floral arrangements infused with the intention to create iconic experiences for the receivers.
+       <br> 
+        With roots firm in the heritage of the century-old business of delighting millions the world over with flowers, Frozen Butterfly Flowers's esteemed clientele only expect and receive the very best from the world of flowers. Our floral recipes include a variety of exotic flowers from across the world, sourced from any corner, at any pain, for the pleasure of our prestigious clients. Every one of our flower arrangements is carefully put together with much love, care and skilled craftsmanship making it a piece of floral art few gifts of this world can match up to. Pick from our pre-curated, stunning floral gift hampers made to suit the different kinds of personalities of receivers. Our range go from our best seller, elegant hand-tied roses bouquet in luxury tissue to glamorous hampers that combine several romantic arrangements and high-end, organic treats.
+</p></div>
+<hr>
+    <div class="ccc">
+    <center>
+    <div class="c">
+    <h4 class="cccc">Connect With Us</h4>
+        <nav> 
+            <a href=""><i class="fa-solid fa-envelope fa-2x"></i></a>
+            <a href=""><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href=""><i class="fa-brands fa-instagram fa-2x"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+        </nav></div>
+        </center>
+        
+    <li class="cc">
+        <h4>About Us</h4>
+        <h4>Media Coverage</h4>
+        <h4>Contact Us</h4>
+        <h4>Privacy Policy </h4> 
+        <h4>FAQ</h4>
+         <h4>Terms of Use</h4>
+         <h4>Blog</h4>
+    </li>
+</div>
+  <hr>  
+  <div class="t">
+    <div class="dv">
+        <img src="./MiniPictures/InShot_20240903_121134964.png" width="99px" hight="99px">
+        <h3 style="text-align: left;">Frozen Butterfly Flowers</h3>
+    </div>
+        <div class="s">
+            <h4>100% Safe Delivery | Payment Methods</h4>
+        <img src="./boque/InShot_20240905_112908914.png"width="70px"height="50px">
+            <img src="./boque/InShot_20240905_112943757.png"width="50px"height="40px">
+            <img src="./boque/InShot_20240905_113357838.png"width="50px"height="40px" style="margin-left: 6px;">
+            <img src="./boque/InShot_20240905_113818955.png"width="80px"height="60px"style="margin-inline-start: -20px;">
+            <img src="./boque/InShot_20240905_114151728.png"width="80px"height="60px" style="margin-inline-start: -25px;">
+    </div>
+</div>
+    <hr>
+    <div class="vash">
+        <p>Copy rights:2024 Frozen Butterfly Flowers.All reserved.<br></p>
+        <p>Powered by FBF</p>
+    </div>
+
+
+
+</body>
+
+</html>
